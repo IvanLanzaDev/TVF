@@ -1,0 +1,21 @@
+$slider: url('../imgs/tvf-banner-home.jpg');
+$default-green: #017A86;
+$default-dark-green: #147485;
+$default-gray: #858288;
+$default-bg-dashboard: #f5f6f8;
+
+*{ overflow-x: hidden !important; }
+div{ overflow-y: hidden !important; }
+
+body{animation-name: loadSite; animation-duration: 1s;}
+
+a{ text-decoration: none !important; &:hover{ text-decoration: none !important; } }
+.ajust-mt-blog{ margin-top: 20vh !important; }
+.card-blog-bg{ background: $default-dark-green; }
+.text-default-green{ color: $default-dark-green; }
+.text-default-gray{ color: $default-gray; }
+.top-img-post{ width: 100vw; height: auto !important; }
+.container-post{ margin-top: 10vh; }
+.logo-footer-blog{ width: auto; height: 14vh !important; }
+.mini-post-desktop{ transition: all 0.3s ease; &:hover{ transform: scale(1.05);  } }
+body.dashboard-body{ background: $default-bg-dashboard; }

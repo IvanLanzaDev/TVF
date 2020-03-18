@@ -1,0 +1,62 @@
+* {
+  overflow-x: hidden !important;
+}
+
+div {
+  overflow-y: hidden !important;
+}
+
+body {
+  animation-name: loadSite;
+  animation-duration: 1s;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.ajust-mt-blog {
+  margin-top: 20vh !important;
+}
+
+.card-blog-bg {
+  background: #147485;
+}
+
+.text-default-green {
+  color: #147485;
+}
+
+.text-default-gray {
+  color: #858288;
+}
+
+.top-img-post {
+  width: 100vw;
+  height: auto !important;
+}
+
+.container-post {
+  margin-top: 10vh;
+}
+
+.logo-footer-blog {
+  width: auto;
+  height: 14vh !important;
+}
+
+.mini-post-desktop {
+  transition: all 0.3s ease;
+}
+.mini-post-desktop:hover {
+  transform: scale(1.05);
+}
+
+body.dashboard-body {
+  background: #f5f6f8;
+}
+
+/*# sourceMappingURL=style.css.map */
